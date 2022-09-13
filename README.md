@@ -117,7 +117,7 @@ void AddResult(int val1, int val2){
 
 First, you need to clone the repository in your machine with git previously installed. Type in a console to clone
 ```
-git clone 
+git clone https://github.com/jesusgetial94/MachEightChallenge.git
 ```
 Next, you need GNU C++ compiler to create an executable file and be able to run the proposed algorithm. I expose how to do it on Linux OS and Windows OS:
 
