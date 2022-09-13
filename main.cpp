@@ -137,16 +137,6 @@ int main(int argc, char const *argv[])
   // Load the target from command line
   target = stoi(argv[2]); 
 
-  // Original data. Uncomment for Test purposes
-  //vector<int> originalArray {1,9,5,0,20,-4,12,16,7};  
-  
-  //Uncomment for Test purposes
-  // size_t sz = 100000;
-  // for(int i=0;i<sz;i++){
-  //   originalArray.push_back((rand()%100)*1); 
-  //   originalArray.push_back((rand()%100)*-1); 
-  // }
-
   PrintVector(originalArray, "Original vector : ");
 
   // Size of input array
@@ -216,14 +206,5 @@ int main(int argc, char const *argv[])
   //Show found valid results  
   cout << "Quantity valid results : " << result.size() << endl; 
 
-  // PrintVector(greaterHalfNumbers[0], "Odd numbers grater than target half : ");
-  // PrintVector(smallerHalfNumbers[0], "Odd numbers smaller than target half : ");
-  // PrintVector(greaterHalfNumbers[1], "Even numbers greater than target half : ");
-  // PrintVector(smallerHalfNumbers[1], "Even numbers smaller than target half : ");
-  // PrintVector(negativeNumbers[0], "Negative odd numbers : ");
-  // PrintVector(greaterTargetNumbers[0], "Odd numbers greater than target : ");
-  // PrintVector(negativeNumbers[1], "Negative even numbers : ");
-  // PrintVector(greaterTargetNumbers[1], "Even numbers greater than target : ");
-  
   return 0;
 }
